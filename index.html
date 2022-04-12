@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Generar archivoPDF</title> <!-- aquí indicamos el nombre que aparece en la pestaña -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- esto es para que se adapte a los móviles -->
+    <link href="estilo/estilo.css" rel="stylesheet"/> <!-- enlace con la hoja de estilo css -->
+	<!-- El script de la librería-->
+    <script src="js/html2pdf.bundle.min.js"></script>
+    <!--Nuestro script, que se encarga de crear el PDF usando la librería-->
+    <script src="js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+
+
+
+	 
+<div class="header"; id="cabecera";> <!-- Cabecera de nuestra web-->
+		<h2>Proyecto Dstino Innovación</h2>
+		<h1>Sistema de formación para el empleo </h1>
+		
+</div>
+	  
+<!--Contenedor de los elementos de la barra de navegación-->
+
+	<div class="topnav">   
+		<a href="index.html" target="_blank">GENERAR PDF</a>
+		<a href="img/cabecera/error-404.jpg">LOGIN</a>
+		<a href="img/cabecera/error-404.jpg">BUSCADOR</a>
+	</div>
+	
+<section id="contenedormarco">
+
+<!--Marco izquierdo que delimita la posición del marco central-->
+
+	<div id="marco1">
+		<h1></h1>
+	</div>	
+	
+<!--Marco central donde aparecen los espacios habilitados para la introducción de datos-->
+	
+	<fieldset id="marco2"><br>
+<!--Texto identificativo formulario-->
+		<legend id="buscador">Buscador</legend>
+
+<!--Contenedor que alberga los espacios destinados a la introducción de datos, Está identificado pero no tiene atributos específicos-->
+			
+			<div id=pdf>
+				<form>
+					<div class="form-group">
+						<label for="nombre">Nombre:</label>
+						<input id="longitud1" type="email" class="form-control" id="email" placeholder="Introduzca el nombre de la especialidad">
+					</div>
+					<div class="form-group">
+						<label for="certificado">Certificado/Familia:</label>
+						<input id="longitud2" type="text" class="form-control" id="pwd" placeholder="Seleccione Familia">
+					</div>
+					<div class="form-group">
+						<label for="alumnos">Alumnos:</label>
+						<input id="longitud3" type="text" class="form-control" id="pwd" placeholder="Nombre del alumno">
+					</div>
+					<div class="form-group">
+						<label for="material">Material:</label>
+						<input id="longitud4" type="text" class="form-control" id="pwd" placeholder="Seleccione material">
+					</div>
+					<div class="form-group">
+						<label for="espacios">Espacios:</label>
+						<input id="longitud5" type="text" class="form-control" id="pwd" placeholder="Seleccione espacio">
+					</div>
+				</form>
+				
+<!--Campo de texto destinado a la introducción de observaciones-->
+		    		  
+				<p>&nbsp;&nbsp;Observaciones</pre>
+				<br>
+				<textarea  rows="8" cols="60">
+				</textarea>
+			</div>
+	
+	
+<!--botón que genera el archivo pdf-->
+
+		<button id="btnCrearPdf">Generar documento PDF</button>
+		<a href="//parzibyte.me/blog"></a>
+			
+	
+	</fieldset>
+	
+<!--Marco derecho que delimita la posición del marco central-->
+	
+	<div id="marco3">
+		<h1></h1>
+	
+	<br>
+	
+</section>
+	
+<!--contenedor que alberga el botón que genera el archivo pdf-->
+	
+
+	
+
+
+<footer> <!-- Píe de la página web -->
+
+<!--contenedor superior del pie de página-->
+
+<div id="parte1">
+<img class="espaciado" src="img/footer/Logotipo - Ayuntamiento de Cáceres.png" width="20%">
+<img class="espaciado" src="img/footer/Logotipo - Universidad Popular de Cáceres.png" width="20%">
+
+</div>
+
+<!--contenedor intermedio del pie de página-->
+
+<div id="parte2">
+<img class="espaciado" src="img/footer/Logotipo SEXPE.png" width="17%">
+<img class="espaciado" src="img/footer/Logotipo - Plan de Empleo de Extremadura.png" width="20%">
+<img class="espaciado" src="img/footer/Logotipo - Junta de Extremadura.png" width="20%">
+<img class="espaciado" src="img/footer/Logotipo -Ministerio de Trabajo.png" width="20%">
+
+</div>
+<!--contenedor inferior del pie de página-->
+
+<div id="parte3">
+
+<img class="espaciado" src="img/footer/redessociales.png" width="80%">
+
+</div>
+
+</footer>
+
+</body>	
+
+</html>
