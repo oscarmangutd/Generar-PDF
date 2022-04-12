@@ -1,0 +1,217 @@
+
+
+body {
+ 
+  height:80%;
+  width:100%;
+      
+}
+
+/* Texto para encabezado con transición de blanco a negro */
+.header {
+  background-image: url(../img/cabecera/cabecera3.jpg);
+  background-size:cover;
+  font-family: corbel;
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+  color: #FFFFff; 
+}
+  
+ 
+
+#cabecera{
+  
+  color: white; 
+  text-align:center;
+  animation:myfirst 10s;
+  -webkit-animation:myfirst 10s; /* Safari and Chrome */
+}
+
+@keyframes myfirst
+{
+	from {color:#5361AF;}
+	to {color:white;}
+}
+ 
+/* Atributos para para de navegación */
+ 
+.topnav {
+  margin:0 auto;
+  width:100%;
+  box-shadow: 3px 3px 3px #777;
+  overflow: hidden;
+  background-color: #ECECEB;
+}
+
+/* Tamaño de los espacios destinados a la introducción de datos */
+
+#longitud1{
+  width:80% ;
+}
+#longitud2{
+  width:80% ;
+}
+#longitud3{
+  width:80% ;
+}
+#longitud4{
+  width:80% ;
+}
+#longitud5{
+  width:80% ;
+}
+
+
+/* Atributos de los elementos de la barra de navegación */
+.topnav a {
+ 
+  margin-left: 4%;
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 140%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Atributos de la barra de navegación cuando situamos el cursor encima */
+
+.topnav a:hover {
+  background-color: #A7A8A6;
+  color: white;
+ 
+}
+
+/* Atributos del contenedor que contiene los marcos */
+
+#contenedormarco{
+
+background-image: url(../img/body/body3.jpg);
+background-size:cover;
+margin:0 auto;
+padding-top:2%;
+height:790px;
+width:100%;
+
+
+
+}
+/* Atributos del texto identificativo del formulario */
+#buscador{
+
+  border-radius: 10px;
+  width:21%;
+  padding-left: 2.2%;
+  color: #85888D;
+  background-color:#ECECEB;
+  box-shadow: 1px 1px 3px #777
+  
+}
+/* Atributos del marco izquierdo invisible */
+
+#marco1{
+  float: left;
+  width:30%;
+  height:100%;
+  float: left;
+  color: black;
+
+  
+}
+
+/* Atributos del marco central visible */
+
+#marco2{
+  float: left;
+  width:40%;
+  padding-left:6%;
+  padding-bottom:2%;
+  color: black;
+  background-color:#ECECEB;
+  box-shadow: 1px 1px 3px #777;
+  border-radius: 10px;
+}
+
+#campotexto {
+
+margin-left:3%;
+margin-right:80%;
+	
+}
+
+/* Atributos del marco derecho invisible */
+
+#marco3{
+ 
+  float: right;
+  width:30%;
+  height:100%;
+  color: black;
+
+  
+}
+
+
+/* Atributos del botón que genera el archivo pdf */
+
+#btnCrearPdf{
+margin-top:2%;
+margin-left:25%;
+color: black;
+padding:1%;
+box-shadow: 1px 1px 3px #777;
+
+
+}
+
+/* Atributos del pie de página */
+
+footer{
+ 
+  float:center;
+  padding:20%;
+  background:white;
+  padding: 20px;
+  text-align: center;
+  height:50%;
+  width:100%;
+  
+}
+ 
+/* Atributos del contenedor superior del pie de página */
+ 
+ 
+#parte1{
+DISPLAY:center;
+width:100%;
+height:10%;
+}
+
+/* Atributos de los contenedores que albergan los mapas de bits de los logotipos */
+
+.espaciado {
+  float: center;
+  padding-left:4%;
+  padding-right:4%;
+  padding-top:1%;
+  padding-top:1%;
+  
+}
+
+/* Atributos del contenedor inferiro del pie de página */
+
+#parte2{
+margin-top:1%;
+width:100%;
+height:10%;
+}
+
+#parte3{
+margin-top:2%;
+color:grey;
+border-top-style: solid;
+border-width: 2px;
+}
